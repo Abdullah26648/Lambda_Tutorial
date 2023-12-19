@@ -39,7 +39,7 @@ public class C02_Filter {
         sayiList//aksiyona girecek akis kaynagi call edildi
                 .stream()//call edilen coll. elemanlari akisa alindi
                 //.filter((t)->t%2==0)
-                .filter(SeedMethods::ciftmi)//akisdaki cift elemanlar filtrelendi
+                .filter(SeedMethods::ciftMi)//akisdaki cift elemanlar filtrelendi
                 .forEach(SeedMethods::intPrint);//akisdaki cifte gore filtrelenen elemanlar print edildi
     }
     //task03-> "Functional Programming"--> CINCIX Programming kullanarak  listin 35'den kucuk çift elemanlarını aynı satırda aralarında bosluk ile print ediniz
@@ -56,8 +56,7 @@ public class C02_Filter {
                 .stream()
 //                .filter((t)->t<35)
 //                .filter(SeedMethods::ciftMi)
-                .filter(SeedMethods::ciftmi)
-                .filter(SeedMethods::kucukmu)
+                .filter(SeedMethods::cift35Kck)
                 .forEach(SeedMethods::intPrint);
     }
     //task04-> "Functional Programming"--> CINCIX Programming kullanarak  listin 34'den buyuk yada  tek elemanlarını aynı satırda aralarında bosluk ile print ediniz
