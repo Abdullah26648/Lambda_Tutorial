@@ -4,13 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9b91414-fbb9-4e81-99c0-1a88624e0412" name="Changes" comment="18.12.2023 İnitial commit.">
-      <change afterPath="$PROJECT_DIR$/src/lambda/C04_Reduce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/C05_Sorted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/C06_Distinct.java" afterDir="false" />
+    <list default="true" id="f9b91414-fbb9-4e81-99c0-1a88624e0412" name="Changes" comment="20.12.2023 day 2.">
+      <change afterPath="$PROJECT_DIR$/src/lambda/C07_Match.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/C08_Limit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/C09_Skip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/C10_LambdaObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/C10_University.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/C11_TextRead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/C12_FlatMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/C13_Stream_Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/HalUk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/InterviewQuestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/Q02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/Q64_MountainArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambda/C02_Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/C02_Filter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambda/C03_Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/C03_Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda/C06_Distinct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/C06_Distinct.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lambda/SeedMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/SeedMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,27 +53,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.C01_LambdaExpression.executor": "Run",
-    "Application.C02_Filter.executor": "Run",
-    "Application.C03_Map.executor": "Run",
-    "Application.C04_Reduce.executor": "Run",
-    "Application.C05_Sorted.executor": "Run",
-    "Application.C06_Distinct.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "editor.preferences.import"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.C01_LambdaExpression.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C02_Filter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C03_Map.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C04_Reduce.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C05_Sorted.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C06_Distinct.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C07_Match.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C08_Limit.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C09_Skip.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C10_LamdaObject.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C12_FlatMap.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C12_Flatmap.executor&quot;: &quot;Run&quot;,
+    &quot;Application.C13_Stream_Iterator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TextRead.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/MONSTER/IdeaProjects/Lambda_Tutorial/src/lambda&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.C06_Distinct">
-    <configuration name="C02_Filter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.C02_Filter" />
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MONSTER\IdeaProjects\Lambda_Tutorial\src\lambda" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\MONSTER\IdeaProjects\Lambda_Tutorial\src\lambda" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.C13_Stream_Iterator">
+    <configuration name="C10_LamdaObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.C10_LamdaObject" />
       <module name="Lambda_Tutorial" />
       <extension name="coverage">
         <pattern>
@@ -77,8 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_Map" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.C03_Map" />
+    <configuration name="C11_TextRead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.C11_TextRead" />
       <module name="Lambda_Tutorial" />
       <extension name="coverage">
         <pattern>
@@ -90,8 +115,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C04_Reduce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.C04_Reduce" />
+    <configuration name="C12_FlatMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.C12_FlatMap" />
       <module name="Lambda_Tutorial" />
       <extension name="coverage">
         <pattern>
@@ -103,8 +128,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C05_Sorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.C05_Sorted" />
+    <configuration name="C12_Flatmap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.C12_Flatmap" />
       <module name="Lambda_Tutorial" />
       <extension name="coverage">
         <pattern>
@@ -116,8 +141,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C06_Distinct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.C06_Distinct" />
+    <configuration name="C13_Stream_Iterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.C13_Stream_Iterator" />
       <module name="Lambda_Tutorial" />
       <extension name="coverage">
         <pattern>
@@ -131,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.C06_Distinct" />
-        <item itemvalue="Application.C05_Sorted" />
-        <item itemvalue="Application.C04_Reduce" />
-        <item itemvalue="Application.C03_Map" />
-        <item itemvalue="Application.C02_Filter" />
+        <item itemvalue="Application.C13_Stream_Iterator" />
+        <item itemvalue="Application.C12_FlatMap" />
+        <item itemvalue="Application.C12_Flatmap" />
+        <item itemvalue="Application.C11_TextRead" />
+        <item itemvalue="Application.C10_LamdaObject" />
       </list>
     </recent_temporary>
   </component>
@@ -163,12 +188,21 @@
       <option name="project" value="LOCAL" />
       <updated>1702931189641</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="20.12.2023 day 2.">
+      <option name="closed" value="true" />
+      <created>1703023234790</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703023234790</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="18.12.2023 İnitial commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="18.12.2023 İnitial commit." />
+    <MESSAGE value="20.12.2023 day 2." />
+    <option name="LAST_COMMIT_MESSAGE" value="20.12.2023 day 2." />
   </component>
 </project>

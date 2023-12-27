@@ -22,7 +22,7 @@ public class C06_Distinct {
         System.out.println("\n****Task04*****");
         printlascharreverse(yemahhh);
         System.out.println("\n****Task05*****");
-        printSquareOfEvenDigits(yemahhh);
+        printSquareOfEvenDigitsReverseUnique(yemahhh);
     }
     //Task01-> list elemanlarını alfabetik Buyuk harf ile tekrarsız print eden code create ediniz...
     public static void printorderly(List<String> yemahhh) {
@@ -52,7 +52,7 @@ public class C06_Distinct {
     */
 
     // Task05-> listin elemanlarin  cift sayili karakterlerinin  karelerini   b->k sirali tekrarsiz print eden code create ediniz...
-    private static void printSquareOfEvenDigits(List<String> yemahhh) {
+    private static void printSquareOfEvenDigitsReverseUnique(List<String> yemahhh) {
         yemahhh.stream().map(String::length).filter(SeedMethods::ciftMi).map(SeedMethods::kareAl).sorted(Comparator.reverseOrder()).distinct().forEach(SeedMethods::intPrint);
     }
 }

@@ -32,4 +32,7 @@ public class SeedMethods {
     public static void stringPrint(String a) {
         System.out.print(a + " ");
     }
+    public static boolean Sevenandless(int a){
+        return a<= 7;
+    }
 }
