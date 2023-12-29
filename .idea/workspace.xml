@@ -4,22 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9b91414-fbb9-4e81-99c0-1a88624e0412" name="Changes" comment="20.12.2023 day 2.">
-      <change afterPath="$PROJECT_DIR$/src/lambda/C07_Match.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/C08_Limit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/C09_Skip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/C10_LambdaObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/C10_University.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/C11_TextRead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/C12_FlatMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/C13_Stream_Iterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/HalUk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/InterviewQuestion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/Q02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/Q64_MountainArray.java" afterDir="false" />
+    <list default="true" id="f9b91414-fbb9-4e81-99c0-1a88624e0412" name="Changes" comment="27.12.2023">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambda/C06_Distinct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/C06_Distinct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambda/SeedMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/SeedMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,13 +182,22 @@
       <option name="project" value="LOCAL" />
       <updated>1703023234790</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="27.12.2023">
+      <option name="closed" value="true" />
+      <created>1703695003001</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703695003001</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="18.12.2023 İnitial commit." />
     <MESSAGE value="20.12.2023 day 2." />
-    <option name="LAST_COMMIT_MESSAGE" value="20.12.2023 day 2." />
+    <MESSAGE value="27.12.2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="27.12.2023" />
   </component>
 </project>
