@@ -7,6 +7,6 @@ public class Task_08 {
     //  4.Bos zamanlari doldurmak degil...
     //  5.bu son satir da Lambda ya Hoscakal olsun :)
     public static void main(String[] args) {
-
+        System.out.println("Goodbye Java 🖐️");
     }
 }

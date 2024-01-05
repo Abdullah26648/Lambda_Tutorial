@@ -5,15 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9b91414-fbb9-4e81-99c0-1a88624e0412" name="Changes" comment="30.12.2023">
-      <change afterPath="$PROJECT_DIR$/src/Tasks/Task_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tasks/Task_02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tasks/Task_03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tasks/Task_04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tasks/Task_05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tasks/Task_06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tasks/Task_07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tasks/Task_08.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tasks/Task_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/Task_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tasks/Task_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/Task_02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tasks/Task_03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/Task_03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tasks/Task_04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/Task_04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tasks/Task_05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/Task_05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tasks/Task_06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/Task_06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tasks/Task_07.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/Task_07.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tasks/Task_08.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/Task_08.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda/HalUk" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/HalUk" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,33 +48,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.C01_LambdaExpression.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C02_Filter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C03_Map.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C04_Reduce.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C05_Sorted.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C06_Distinct.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C07_Match.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C08_Limit.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C09_Skip.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C10_LamdaObject.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C12_FlatMap.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C12_Flatmap.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C13_Stream_Iterator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TextRead.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/MONSTER/IdeaProjects/Lambda_Tutorial/src/lambda&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.C01_LambdaExpression.executor": "Run",
+    "Application.C02_Filter.executor": "Run",
+    "Application.C03_Map.executor": "Run",
+    "Application.C04_Reduce.executor": "Run",
+    "Application.C05_Sorted.executor": "Run",
+    "Application.C06_Distinct.executor": "Run",
+    "Application.C07_Match.executor": "Run",
+    "Application.C08_Limit.executor": "Run",
+    "Application.C09_Skip.executor": "Run",
+    "Application.C10_LamdaObject.executor": "Run",
+    "Application.C12_FlatMap.executor": "Run",
+    "Application.C12_Flatmap.executor": "Run",
+    "Application.C13_Stream_Iterator.executor": "Run",
+    "Application.Task_01.executor": "Run",
+    "Application.Task_02.executor": "Run",
+    "Application.Task_03.executor": "Run",
+    "Application.Task_04.executor": "Run",
+    "Application.Task_05.executor": "Run",
+    "Application.Task_06.executor": "Run",
+    "Application.Task_07.executor": "Run",
+    "Application.TextRead.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/MONSTER/IdeaProjects/Lambda_Tutorial/src/lambda",
+    "settings.editor.selected.configurable": "editor.preferences.import"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\MONSTER\IdeaProjects\Lambda_Tutorial\src\lambda" />
@@ -82,13 +90,13 @@
       <recent name="C:\Users\MONSTER\IdeaProjects\Lambda_Tutorial\src\lambda" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.C13_Stream_Iterator">
-    <configuration name="C10_LamdaObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.C10_LamdaObject" />
+  <component name="RunManager" selected="Application.Task_07">
+    <configuration name="Task_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tasks.Task_03" />
       <module name="Lambda_Tutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.*" />
+          <option name="PATTERN" value="Tasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C11_TextRead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.C11_TextRead" />
+    <configuration name="Task_04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tasks.Task_04" />
       <module name="Lambda_Tutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.*" />
+          <option name="PATTERN" value="Tasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C12_FlatMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.C12_FlatMap" />
+    <configuration name="Task_05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tasks.Task_05" />
       <module name="Lambda_Tutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.*" />
+          <option name="PATTERN" value="Tasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C12_Flatmap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.C12_Flatmap" />
+    <configuration name="Task_06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tasks.Task_06" />
       <module name="Lambda_Tutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.*" />
+          <option name="PATTERN" value="Tasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C13_Stream_Iterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.C13_Stream_Iterator" />
+    <configuration name="Task_07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tasks.Task_07" />
       <module name="Lambda_Tutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.*" />
+          <option name="PATTERN" value="Tasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.C13_Stream_Iterator" />
-        <item itemvalue="Application.C12_FlatMap" />
-        <item itemvalue="Application.C12_Flatmap" />
-        <item itemvalue="Application.C11_TextRead" />
-        <item itemvalue="Application.C10_LamdaObject" />
+        <item itemvalue="Application.Task_07" />
+        <item itemvalue="Application.Task_06" />
+        <item itemvalue="Application.Task_05" />
+        <item itemvalue="Application.Task_04" />
+        <item itemvalue="Application.Task_03" />
       </list>
     </recent_temporary>
   </component>
